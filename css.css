@@ -1,0 +1,240 @@
+*{
+	margin: 0%;
+}
+
+.topnav{
+	background-color:white;
+	width:100%;
+	height: 100px;
+	margin: 0px;
+	position:sticky;
+	z-index: 1;
+	top:0;
+}
+
+li.mynavbar{
+	display:inline;
+	position:sticky;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mynavbar a{
+	display: inline;
+	color: black;
+	float:left;
+	padding: 20px;
+	padding-top: 40px;
+	margin-top: 0px;
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+li a:hover{
+  background-color: #555;
+  color: white;
+  margin-top:10px;
+ 
+}
+
+
+
+
+.logo2{
+	font-size: 70px;
+	float:right;
+	font-family: 'Great Vibes', cursive;
+	padding: 70px;
+	
+}
+
+.logo{
+	display:inline;
+	padding: 30px;
+	width:8%;
+	float:left;
+	
+}
+
+.first{
+	margin:0%;
+	background-image: url("Images/backgrndcolors.png");
+	width:100%;
+	height:400px;	
+}
+
+.products {
+  margin: 110px 0px 1px 45px;
+  border-left: 5px solid pink;
+  width: 13%;
+  display:inline-block;
+  background-color:white;
+  text-align: center;
+}
+
+.products:hover {
+  border-left: 5px solid lightblue;
+  background-color: #f1f1f1;
+}
+
+div.products img {
+  width:100%;
+  height: auto;
+  
+}
+
+div.description {
+  padding: 15px;
+  text-align: center;
+  color:black;
+}
+
+.description:hover{
+	color:blue;
+}
+
+
+
+
+
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  display:inline-block;
+  width: 20%;
+  background-color:white;
+  padding: 5px 5px 20px 5px;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+ 
+}
+.desc:hover{
+	text-decoration:underline;
+}
+
+body{
+	margin:0px;
+}
+
+.column1 {
+  float: left;
+  width: 10%;
+  background-color: white;
+  padding-left: 20px;
+  height:500px;
+  margin: 5px;
+  border: 1px solid black;
+
+ 
+}
+.all{
+	display:inline-block;
+	margin-left: 30px;
+}
+.row{
+  background-color: lightgray;
+  width:85%;
+  height: 500px;
+  margin: left 5px;
+  display:flex;
+  
+}
+
+
+.header{
+	margin:0px;
+	background-image: url("Images/backgrndcolors.png");
+	width:100%;
+	height:200px;
+}
+
+.icon1:hover {	
+	color:red;	
+}
+
+.icon2:hover {	
+	color:grey;	
+}
+
+.footer{
+
+	background-color: lightgrey;
+	text-align:center;
+	width:100%;
+	padding: 50px;
+	
+}
+
+.homepagefooter{
+
+	background-color: lightgrey;
+	text-align:center;
+	width:100%;
+	padding: 50px;
+	margin-top: 300px;
+	
+	
+}
+
+.footer a{
+	color:black;
+}
+
+
+.homepagefooter a{
+	color:black;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+.dropdown {
+  display: inline-block;
+  margin-top:39px;
+  margin-left:10px;
+}
+
+.dropdowncontent {
+  background-color: #f1f1f1;
+  width: 108px;
+  height:130px;
+  display: none;
+}
+
+.dropdowncontent a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdowncontent a:hover {
+	background-color: lightpink;
+	text-decoration: underline;
+}
+
+
+
+.dropdown:hover{
+	background-color: grey;
+	padding: 5px;
+}
+
+
+.products a{
+	text-decoration:none;
+}
+
